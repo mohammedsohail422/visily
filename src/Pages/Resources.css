@@ -1,0 +1,15 @@
+@keyframes movingall {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100vw 0;
+  }
+}
+
+.animate-resources {
+  background: url("../images/resources/theme-hero.jpg");
+  height: 80vh;
+  animation: movingall 40s linear infinite;
+  background-size: cover;
+}

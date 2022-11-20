@@ -1,0 +1,102 @@
+.heading h1 {
+  font-size: 3rem !important;
+  font-weight: 800;
+}
+h1 span:nth-child(1) {
+  color: #aaa5c2;
+  display: block;
+  font-size: 3rem;
+  font-weight: 800;
+}
+h1 span:nth-child(2) {
+  background: linear-gradient(90deg, #7c56e9 0%, #6786ed 51.04%, #5ad7ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 3rem;
+  font-weight: 800;
+}
+h1 span:nth-child(3) {
+  background: linear-gradient(91.28deg, #8e7f81 7.41%, #f4bf6f 94.98%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 3rem;
+  font-weight: 800;
+}
+h2 span {
+  color: #aaa5c2;
+}
+/* /////animation */
+@keyframes slideInFromBottom {
+  0% {
+    transform: translateY(100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.animate {
+  animation: slideInFromBottom 1s ease-in;
+}
+
+video {
+  width: 100%;
+  object-fit: cover;
+}
+button {
+  letter-spacing: 1px;
+}
+/* //// */
+.c-one {
+  background: linear-gradient(
+    90deg,
+    #eb64bd 0%,
+    #e36be5 22.92%,
+    #bb61ef 47.4%,
+    #8f60ef 73.96%,
+    #635fef 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 3rem;
+  font-weight: 800;
+}
+.c-two {
+  background: linear-gradient(90deg, #6886ef 0%, #72b7f1 49.48%, #6ceded 100%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 3rem;
+  font-weight: 800;
+}
+.c-three {
+  background: linear-gradient(278deg, #f75d79 58.59%, #eda73f 90.56%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 3rem;
+  font-weight: 800;
+}
+.c-four {
+  background: linear-gradient(90deg, #7c56e9 0%, #6786ed 51.04%, #5ad7ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 3rem;
+  font-weight: 800;
+}
+.c-five {
+  background: linear-gradient(90deg, #4fe1ac 0%, #46d9dd 50%, #45b2ee 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 3rem;
+  font-weight: 800;
+}
+/* ////partner */
+.partner {
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+/* //// */
+.banner {
+  background-color: #7572e8 !important;
+  border-radius: 10px;
+}

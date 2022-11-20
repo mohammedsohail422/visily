@@ -1,0 +1,12 @@
+.orange {
+  background: linear-gradient(91.28deg, #f75d79 7.41%, #eda73f 94.98%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.active::after {
+  content: "";
+  display: block;
+  margin: auto;
+  /* width: 100px; */
+  border-bottom: 2px solid red;
+}
